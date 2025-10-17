@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootUser</name>
 	<description>UserProjet</description>
+	<packaging>war</packaging>
 	<url/>
 	<licenses>
 		<license/>
@@ -58,6 +59,9 @@
 	</dependencies>
 
 	<build>
+	
+		<finalName>backjunk</finalName>
+
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
